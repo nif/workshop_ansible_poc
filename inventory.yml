@@ -1,0 +1,30 @@
+all:
+  vars:
+    ansible_ssh_user: root
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+  hosts:
+    alma01.1.mgmt.dvag.net:
+      ansible_host: 10.62.0.56
+    alma02.1.mgmt.dvag.net:
+      ansible_host: 10.62.0.58
+    alma03.1.mgmt.dvag.net:
+      ansible_host: 10.62.0.59
+    alma04.1.mgmt.dvag.net:
+      ansible_host: 10.62.0.61
+  children:
+    dev:
+      hosts:
+        alma01.1.mgmt.dvag.net:
+        alma02.1.mgmt.dvag.net:
+    prod:
+      hosts:
+        alma03.1.mgmt.dvag.net:
+        alma04.1.mgmt.dvag.net:
+    alma8:
+      hosts:
+        alma02.1.mgmt.dvag.net:
+        alma04.1.mgmt.dvag.net:
+    alma9:
+      hosts:
+        alma01.1.mgmt.dvag.net:
+        alma03.1.mgmt.dvag.net:

@@ -1,0 +1,17 @@
+---
+
+- name: playbook ping.yml
+  hosts: "{{ ansible_limit }}"
+  gather_facts: false
+
+  tasks:
+  - name: ansible ping
+    ping:
+
+  - name: uname -a
+    shell:
+      cmd: "date; uname -a"
+    register: uname
+
+  - debug:
+      var: uname['stdout']
