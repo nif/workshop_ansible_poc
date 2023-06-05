@@ -4,5 +4,8 @@
   hosts: all
 
   roles:
-  - basis
-  - loadbalancer
+  - role: basis
+  - role: loadbalancer
+    when: server_role is defined and server_role == 'loadbalancer'
+  - role: backend
+    when: server_role is defined and server_role == 'backend'
