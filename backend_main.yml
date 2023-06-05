@@ -1,0 +1,8 @@
+---
+
+- name: playbook backend_main.yml
+  hosts: "{{ ansible_limit }}"
+
+  roles:
+  - basis
+  - backend

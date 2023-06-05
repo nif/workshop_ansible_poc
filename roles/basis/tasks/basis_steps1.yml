@@ -1,0 +1,13 @@
+---
+
+- name: create /etc/basis_step1
+  ansible.builtin.file:
+    state: touch
+    path: /etc/basis_step1
+    owner: foreman
+    group: foreman
+
+- name: content /etc/basis_step1
+  ansible.builtin.copy:
+    content: 'basis content'
+    dest: /etc/basis_step1

@@ -1,0 +1,8 @@
+---
+
+- name: playbook main.yml
+  hosts: all
+
+  roles:
+  - basis
+  - loadbalancer
