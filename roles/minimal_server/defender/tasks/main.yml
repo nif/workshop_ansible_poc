@@ -1,0 +1,16 @@
+- name: minimal_server/defender role
+  tags:
+  - minimal_server/defender
+  block:
+
+  - name: get onboard.json
+    debug:
+      msg: get onboard.json
+
+  - name: configure mdatp_managed.json
+    debug:
+      msg: configure mdatp_managed.json
+
+  - name: setup defender application
+    debug:
+      msg: setup defender application

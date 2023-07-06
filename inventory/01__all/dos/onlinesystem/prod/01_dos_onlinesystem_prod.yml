@@ -1,0 +1,7 @@
+dos_onlinesystem:
+  children:
+    dos_onlinesystem_prod:
+
+dos_onlinesystem_prod:
+  vars:
+  hosts:

@@ -1,0 +1,22 @@
+- name: test/test_main_solo_lookup
+  tags:
+  - test/test_main_solo_lookup
+  block:
+
+  - name: test main_solo_lookup
+    debug:
+      msg: "{{ lookup('main_solo', 'user_id.yml') }}"
+
+  - name: test main_solo_lookup with set_fact
+    set_fact:
+      user_id: "{{ lookup('main_solo', 'user_id.yml') | from_yaml }}"
+      group_id: "{{ lookup('main_solo', 'group_id.yml') | from_yaml }}"
+      rundeck_uid: "{{ (lookup('main_solo', 'user_id.yml') | from_yaml).rundeck }}"
+
+  - name: show group_ids
+    debug:
+      msg: "{{ group_id }}"
+
+  - name: show user_id for rundeck
+    debug:
+      msg: "{{ rundeck_uid }}"

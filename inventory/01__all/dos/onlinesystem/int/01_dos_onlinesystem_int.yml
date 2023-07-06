@@ -1,0 +1,9 @@
+dos_onlinesystem:
+  children:
+    dos_onlinesystem_int:
+
+dos_onlinesystem_int:
+  vars:
+  hosts:
+    app03.2.dos.dvag.net:
+      top_role: dos/roles/cloud_app_server

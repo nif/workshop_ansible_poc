@@ -1,0 +1,39 @@
+- name: minimal_server/rundeck_user
+  tags:
+  - minimal_server/rundeck_user
+  become: true
+  block:
+
+  - name: create group rundeck
+    group:
+      name: rundeck
+      gid: "{{ (lookup('main_solo', 'group_id.yml') | from_yaml).rundeck }}"
+
+  - name: create user rundeck
+    user:
+      name: rundeck
+      uid: "{{ (lookup('main_solo', 'user_id.yml') | from_yaml).rundeck }}"
+      groups: rundeck
+
+  - name: create directory /home/rundeck/.ssh
+    file:
+      path: /home/rundeck/.ssh
+      state: directory
+      owner: rundeck
+      group: rundeck
+      mode: u+rwx,g-rwx,o-rwx
+
+  - name: copy rundeck authorized_keys
+    copy:
+      src: rundeck_authorized_keys
+      dest: /home/rundeck/.ssh/authorized_keys
+      owner: rundeck
+      group: rundeck
+      mode: u+rw,g-rwx,o-rwx
+
+  - name: rundeck sudoers rules
+    community.general.sudoers:
+      name: user-rundeck
+      user: rundeck
+      commands: ALL
+      nopassword: true

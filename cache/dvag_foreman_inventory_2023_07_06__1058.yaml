@@ -1,0 +1,391 @@
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: u130854-a Kadolsky, Andreas (Admin)
+domain_name: salxtest.dvag.net
+environment_name: akd_chrony
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: null
+ip: 10.62.0.56
+location_name: DVAG
+model_name: VMware7,1
+name: alma01.salxtest.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: u130854-a Kadolsky, Andreas (Admin)
+subnet_name: VRZ1-2880-Aufbausystem-Mgmt
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: api_eni
+domain_name: salxtest.dvag.net
+environment_name: main
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: null
+ip: 10.62.0.58
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: alma02.salxtest.dvag.net
+operatingsystem_name: AlmaLinux 8.7
+organization_name: DVAG
+owner_name: api_eni
+subnet_name: VRZ1-2880-Aufbausystem-Mgmt
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: vcenterxp03_Frankfurt.2880
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: salxtest.dvag.net
+environment_name: main
+errata_status_label: Security errata applicable
+global_status_label: Error
+hostgroup_title: zob/prod
+ip: 10.62.0.59
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: alma03.salxtest.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: VRZ1-2880-Aufbausystem-Mgmt
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: vcenterxp03_Frankfurt.2880
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: salxtest.dvag.net
+environment_name: prod
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: portos/prod
+ip: 10.62.0.61
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: alma04.salxtest.dvag.net
+operatingsystem_name: AlmaLinux 8.7
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: VRZ1-2880-Aufbausystem-Mgmt
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: null
+environment_name: null
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: dos/onlinesystem/dev
+ip: 10.62.169.138
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: app02.1.dos.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: null
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: null
+environment_name: null
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: dos/cloud/dev
+ip: 10.62.169.171
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: app03.1.dos.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: null
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: null
+environment_name: null
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: dos/onlinesystem/int
+ip: 10.62.170.51
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: app03.2.dos.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: null
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: null
+compute_resource_provider: null
+creator: Admin User
+domain_name: null
+environment_name: null
+errata_status_label: Security errata applicable
+global_status_label: Error
+hostgroup_title: dos/cloud/dev
+ip: 10.62.169.181
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: app17.1.dos.dvag.net
+operatingsystem_name: CentOS 7
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: null
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: null
+environment_name: null
+errata_status_label: Security errata applicable
+global_status_label: Error
+hostgroup_title: dos/cloud/prod
+ip: 10.62.169.182
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: app18.1.dos.dvag.net
+operatingsystem_name: CentOS 7
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: null
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: API Admin
+domain_name: 1.mgmt.dvag.net
+environment_name: eni_foreman
+errata_status_label: null
+global_status_label: OK
+hostgroup_title: null
+ip: 10.62.0.26
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: foreman01.1.mgmt.dvag.net
+operatingsystem_name: AlmaLinux 8.7
+organization_name: DVAG
+owner_name: u130399-a Nifontov, Evgeny (Extern) (Admin)
+subnet_name: VRZ1-2880-Aufbausystem-Mgmt
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Monitoring
+compute_resource_provider: vmware
+creator: u130391-a Bergmann, Christian (Admin)
+domain_name: 1.mon.dvag.net
+environment_name: null
+errata_status_label: All errata applied
+global_status_label: Error
+hostgroup_title: null
+ip: 10.62.0.233
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: fscancom01.1.mon.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: u130391-a Bergmann, Christian (Admin)
+subnet_name: VRZ1-2882-Monitoring
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+creator: api_eni
+domain_name: salxtest.dvag.net
+environment_name: null
+errata_status_label: No installed packages and/or enabled repositories have been reported
+  by subscription-manager.
+global_status_label: Warning
+hostgroup_title: null
+ip: 10.63.30.137
+location_name: DVAG
+model_name: null
+name: hw4908.salxtest.dvag.net
+operatingsystem_name: AlmaLinux 9
+organization_name: DVAG
+owner_name: api_eni
+subnet_name: VRZ3-2755-SSL-E
+timestamp_epoch: 1688387222
+timestamp_str: '2023-07-03 14:27:02'
+---
+
+architecture_name: x86_64
+creator: Admin User
+domain_name: 1.mgmt.dvag.net
+environment_name: null
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: null
+ip: 10.62.0.60
+location_name: DVAG
+model_name: PowerEdge R630
+name: hwaufbautest01.1.mgmt.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: VRZ1-2880-Aufbausystem-Mgmt
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: 1.mgmt.dvag.net
+environment_name: null
+errata_status_label: Security errata applicable
+global_status_label: Error
+hostgroup_title: null
+ip: 10.62.0.92
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: puppet7-podman01.1.mgmt.dvag.net
+operatingsystem_name: AlmaLinux 8.7
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: null
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: 1.mgmt.dvag.net
+environment_name: null
+errata_status_label: Security errata applicable
+global_status_label: Error
+hostgroup_title: null
+ip: 10.62.0.93
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: puppet7-podman02.1.mgmt.dvag.net
+operatingsystem_name: AlmaLinux 8.7
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: null
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Frankfurt
+compute_resource_provider: vmware
+creator: u130395-a Grzesik, Lukasz (Extern) (Admin)
+domain_name: 1.mail.dvag.net
+environment_name: null
+errata_status_label: All errata applied
+global_status_label: OK
+hostgroup_title: null
+ip: 10.63.31.133
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: relayin03.1.mail.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: u130395-a Grzesik, Lukasz (Extern) (Admin)
+subnet_name: VRZ3-2790-MailIO_E
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Monitoring
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: 1.mon.dvag.net
+environment_name: prod
+errata_status_label: Non-security errata applicable
+global_status_label: Warning
+hostgroup_title: null
+ip: 10.62.0.231
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: zbxcancom01.1.mon.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: VRZ1-2882-Monitoring
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'
+---
+
+architecture_name: x86_64
+compute_profile_name: null
+compute_resource_name: vcenterxp03_Monitoring
+compute_resource_provider: vmware
+creator: Admin User
+domain_name: 1.mon.dvag.net
+environment_name: prod
+errata_status_label: Non-security errata applicable
+global_status_label: Warning
+hostgroup_title: null
+ip: 10.62.0.232
+location_name: DVAG
+model_name: VMware Virtual Platform
+name: zbxcancom02.1.mon.dvag.net
+operatingsystem_name: AlmaLinux 9.1
+organization_name: DVAG
+owner_name: Admin User
+subnet_name: VRZ1-2882-Monitoring
+timestamp_epoch: 1688633881
+timestamp_str: '2023-07-06 10:58:01'

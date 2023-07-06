@@ -1,0 +1,18 @@
+# managed by ansible
+Alias /reports /var/www/html/reports
+
+<Location /reports>
+  <IfModule mod_passenger.c>
+    PassengerEnabled off
+  </IfModule>
+  Options +FollowSymLinks +Indexes
+  AuthType Basic
+  AuthName "reports"
+  AuthBasicProvider ldap
+  AuthLDAPURL "ldaps://bafuldap.dvag.net/dc=dvag, dc=net?cn"
+  AuthLDAPBindDN cn=checkldap,dc=dvag,dc=net
+  AuthLDAPBindPassword {{ lookup('dvag_azure_keyvault', 'bafu-ldap-password-checkldap-dvag-net') }}
+  Require valid-user
+</Location>
+ProxyPass /reports !
+

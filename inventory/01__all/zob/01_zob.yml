@@ -1,0 +1,6 @@
+all:
+  children:
+    zob:
+
+zob:
+  vars:

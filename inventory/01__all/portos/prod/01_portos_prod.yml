@@ -1,0 +1,9 @@
+portos:
+  children:
+    portos_prod:
+
+portos_prod:
+  vars:
+  hosts:
+    alma04.salxtest.dvag.net:
+      top_role: top/portos/catalog_server

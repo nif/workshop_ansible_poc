@@ -1,0 +1,7 @@
+zob:
+  children:
+    zob_int:
+
+zob_int:
+  vars:
+  hosts:

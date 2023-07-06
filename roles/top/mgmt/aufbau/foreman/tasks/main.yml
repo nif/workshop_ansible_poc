@@ -1,0 +1,37 @@
+- name: top/mgmt/aufbau/foreman
+  tags:
+  - top/mgmt/aufbau/foreman
+  become: true
+  block:
+
+  - name: copy /etc/httpd/conf.modules.d/z_dvag.load
+    copy:
+      src: apache/modules/z_dvag.load
+      dest: /etc/httpd/conf.modules.d/z_dvag.load
+
+  - name: "copy to /etc/httpd/conf.d/05-foreman-ssl.d/"
+    copy:
+      src: "{{ item }}"
+      dest: "/etc/httpd/conf.d/05-foreman-ssl.d/"
+    with_fileglob:
+    - "apache/conf/*"
+
+  - name: create /etc/httpd/conf.d/05-foreman-ssl.d/reports.conf
+    template:
+      src: apache/conf/reports.conf.j2
+      dest: /etc/httpd/conf.d/05-foreman-ssl.d/reports.conf
+      mode: '0640'
+
+  - name: "copy to /usr/local/bin/"
+    copy:
+      src: "{{ item }}"
+      dest: "/usr/local/bin/"
+    with_fileglob:
+    - "usr_local_bin/*"
+
+  - name: Create dir /var/www/html/dvag_files
+    file:
+      path: /var/www/html/dvag_files
+      state: directory
+
+

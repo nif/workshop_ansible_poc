@@ -1,0 +1,8 @@
+# managed by ansible
+LoadModule fcgid_module modules/mod_fcgid.so
+LoadModule authn_core_module modules/mod_authn_core.so
+LoadModule authn_file_module modules/mod_authn_file.so
+LoadModule authz_user_module modules/mod_authz_user.so
+LoadModule authnz_ldap_module modules/mod_authnz_ldap.so
+LoadModule ldap_module modules/mod_ldap.so
+LoadModule auth_basic_module modules/mod_auth_basic.so

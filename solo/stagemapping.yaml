@@ -1,0 +1,514 @@
+stage_mapping:
+  0.postgres.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  0.mail.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  0.oracle.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  0.mongo.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  1.ac.dvag.net:
+    stage: mgmt
+    is_active: true
+    tr_active: false
+  2.ac.dvag.net:
+    stage: mgmt
+    is_active: true
+    tr_active: true
+  1.int.dvag.net:
+    stage: mgmt
+    is_active: true
+    tr_active: false
+  1.mgmt.dvintern.net:
+    stage: mgmt
+    is_active: true
+  1.dos.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  1.cloud.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+    active_services:
+      - cloudssllb
+      - cloudssop
+      - cloudapplb
+      - cloudapp
+      - cloudjobman
+      - cloudsyncapp
+      - cloudstanchion
+      - cloudstoragelb
+      - cloudstorage_riak
+      - cloudstorage_riakcs
+    tr_exclude: cloudstorage
+  1.web.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  1.postgres.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  1.mail.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  1.oracle.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  1.search.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  11.zob.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  11.mongo.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  1.dvintern.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  1.infra.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  1.eatotemo.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  2.mgmt.dvag.net:
+    stage: mgmt
+    is_active: true
+    tr_active: false
+  2.mgmt.dvintern.net:
+    stage: mgmt
+    is_active: true
+    tr_active: false
+  2.dos.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+  2.cloud.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+    active_services:
+      - cloudssllb
+      - cloudssop
+      - cloudapplb
+      - cloudapp
+      - cloudjobman
+      - cloudsyncapp
+      - cloudstanchion
+      - cloudstoragelb
+      - cloudstorage_riak
+      - cloudstorage_riakcs
+    tr_exclude: cloudstorage
+  2.postgres.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+  2.mail.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+  2.oracle.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: false
+  12.zob.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+  12.mongo.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: false
+  2.dvintern.net:
+    stage: integration
+    is_active: true
+    tr_active: false
+  2.infra.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+  2.eatotemo.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: false
+  3.dos.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  3.cloud.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+    active_services:
+      - cloudssllb
+      - cloudssop
+      - cloudapplb
+      - cloudapp
+      - cloudjobman
+      - cloudsyncapp
+      - cloudstanchion
+      - cloudstoragelb
+      - cloudstorage_riak
+    tr_exclude: cloudstorage
+  3.web.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  3.postgres.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  3.mail.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  3.oracle.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  3.search.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  13.zob.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  13.mongo.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  3.dvintern.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  2.ext.dvm.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  5.ext.dvm.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  3.infra.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  3.eatotemo.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  4.dos.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  4.cloud.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+    active_services:
+      - cloudssllb
+      - cloudssop
+      - cloudapplb
+      - cloudapp
+      - cloudjobman
+      - cloudsyncapp
+      - cloudstanchion
+      - cloudstoragelb
+      - cloudstorage_riak
+    tr_exclude: cloudstorage
+  4.web.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  4.postgres.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  4.mail.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+    active_services:
+      - mailarc01
+      - mailarc02
+      - mailarc10
+      - mailarc11
+      - mailarc12
+      - mailarc13
+      - mailarc14
+      - mailarc15
+      - mailarc16
+  4.oracle.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  14.zob.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  14.mongo.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  4.dvintern.net:
+    stage: produktion
+    is_active: false
+    tr_active: false
+  3.ext.dvm.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  4.ext.dvm.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  4.infra.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  4.eatotemo.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  11.cloud.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+    active_services:
+      - cloudstorage_riak
+    tr_exclude: cloudstorage
+  12.cloud.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+    active_services:
+      - cloudstorage_riak
+    tr_exclude: cloudstorage
+  13.dos.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  13.mail.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  13.oracle.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  13.cloud.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+    active_services:
+      - cloudstorage_riak
+      - cloudstorage_riakcs
+    tr_exclude: cloudstorage
+  13.web.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  23.zob.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: true
+  23.mongo.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  21.mongo.dvag.net:
+    stage: entwicklung
+    is_active: false
+    tr_active: false
+  22.mongo.dvag.net:
+    stage: integration
+    is_active: false
+    tr_active: false
+  13.dvintern.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  13.eatotemo.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  13.infra.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  14.dos.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  14.cloud.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+    active_services:
+      - cloudstorage_riak
+      - cloudstorage_riakcs
+    tr_exclude: cloudstorage
+  14.web.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  14.mail.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  14.oracle.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: false
+  24.zob.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  24.mongo.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: false
+  14.dvintern.net:
+    stage: produktion
+    is_active: false
+    tr_active: false
+  14.eatotemo.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: false
+  14.infra.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  3.sites.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: false
+  4.sites.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: false
+  11.sites.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  12.sites.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  2.pportal.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  3.pportal.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  5.pportal.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  6.pportal.dvag.net:
+    stage: staging 
+    is_active: true
+    tr_active: false
+  8.pportal.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  5.search.dvag.net:
+    stage: integration
+    is_Active: true
+    tr_active: true
+  13.search.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: true
+  24.search.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  34.search.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  1.appollo.dvag.net:
+    stage: abnahme
+    is_active: false
+    tr_active: true
+  2.appollo.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  0.k8s.dvag.net:
+    infrastructure_usage: [management]
+    stage: infrastructure
+    is_active: true
+    tr_active: false
+  11.k8s.dvag.net:
+    infrastructure_usage: [entwicklung,integration]
+    stage: infrastructure
+    is_active: true
+    tr_active: false
+  2.k8s.dvag.net:
+    infrastructure_usage: [abnahme]
+    stage: infrastructure
+    is_active: true
+    tr_active: false
+  3.k8s.dvag.net:
+    infrastructure_usage: [produktion]
+    stage: infrastructure
+    is_active: true
+    tr_active: false
+  1.mon.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  1.id.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  2.id.dvag.net:
+    stage: integration
+    is_active: true
+    tr_active: true
+  3.id.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  4.id.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  vilavita.intra:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  salxtest.dvag.net:
+    stage: entwicklung
+    is_active: false
+    tr_active: false

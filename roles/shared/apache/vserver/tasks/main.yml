@@ -1,0 +1,8 @@
+- name: shared/apache/vserver
+  tags:
+  - shared/apache/vserver
+  block:
+
+  - name: "setup vserver {{apache_vserver_fqdn}}"
+    debug:
+      msg: "setup vserver {{apache_vserver_fqdn}}"

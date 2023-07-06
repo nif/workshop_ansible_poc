@@ -1,0 +1,9 @@
+dos_cloud:
+  children:
+    dos_cloud_dev:
+
+dos_cloud_dev:
+  vars:
+  hosts:
+    app03.1.dos.dvag.net:
+      top_role: dos/roles/appserver

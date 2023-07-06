@@ -1,0 +1,11 @@
+- name: test/test_azure_keyvault_lookup
+  tags:
+  - test/test_azure_keyvault_lookup
+  block:
+
+  - name: get alertmanager token
+    connection: local
+    run_once: true
+    set_fact:
+      alertmanager_token: "{{ lookup('dvag_azure_keyvault', 'alertmanager-token--azure2alert-prod') }}"
+    #no_log: "{{ no_log | default(True) }}"

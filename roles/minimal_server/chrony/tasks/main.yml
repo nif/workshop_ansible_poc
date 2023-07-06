@@ -1,0 +1,9 @@
+- name: minimal_server/chrony
+  tags:
+  - minimal_server/chrony
+  become: true
+  block:
+
+  - name: chrony steps
+    debug:
+      msg: blabla

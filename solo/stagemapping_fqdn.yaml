@@ -1,0 +1,645 @@
+stage_mapping:
+  alert-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  alert-test02.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  auditbeatlogs01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  auditbeatlogs02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  authns01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  authns02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  authnst01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  authnst02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  certbot01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  deploysrv02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  dmsproxy01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  dmsproxy02.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  dmsproxy03.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  dmsproxy04.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  exporter-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  exporter-test02.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  exporter-ext-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  exporter-ext-test02.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  grafana-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  grafana-test02.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  hvrpoc01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  hyperscale01-az.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  hyperswap01-az.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ibmcollector01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ibmcollector02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  integration-cloud.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  proxy01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  proxy02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafuproxy01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafuproxy02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafulb01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafulb02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet89.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  apt-mirror01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafu01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafu02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafu03.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafu04.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  foreman01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  foreman02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  sheriff.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  pulpmaster01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  pulpmaster02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  hwaufbautest01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  proxy01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  proxy02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-master01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet7-master01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman03.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman04.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman05.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman06.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman07.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet5-podman08.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet7-podman01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet7-podman02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  puppet-nfs.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  test-puppet5-podman01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  test-puppet5-podman02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafugit.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  bafuldap.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  itwikiabn01.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  itwikient01.id.dvag.com:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  itwikiprod01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  jenkins-ac.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  jenkins-dv.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  jenkins-int.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  jira-antrag.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  jira-antrag02.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  jira-antrag03.id.dvag.com:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  jiraautomation02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  kibana01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  kpmg-e01.id.dvag.com:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  kpmg-p01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  lb01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  lb02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  logsammler01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  logsammler02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  logsammler03.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  logsammler03.2.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  logsammler04.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  logsammler04.2.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  logsammler05.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  mdb5mscla01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  mdb5msclb01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  mdb5msclc01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  mdb0mscla01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  mdb0msclb01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  mdb0msclc01-az.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  mitarbeitergespraech01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  mitarbeitergespraech02.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  netdisco.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  netflow.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nexus3-int.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nexus3-portos-int.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nexus-ac.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nexus-dv.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nexus-hybrid.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nexus-int.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ns01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ns02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nsfp01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nsfp02.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  nst01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  nst02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  ntp01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ntp02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  onetime01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ora3msdba01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  ora0restore01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  ora1ongwa01.1.mgmt.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  ora1ongwb01.1.mgmt.dvag.net:
+    stage: abnahme
+    is_active: true
+    tr_active: false
+  ora0ongwa01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  ora0ongwb01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  ora0msdba01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  ora0msdbb01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: false
+  pgsdb01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  pgsdb02.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  p01-dihk.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  postgres-tmp.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  prom-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  prom-test02.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  proxy01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  proxy02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  pulpmaster02old.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  pulpmaster02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  pushgw-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  pushgw-test02.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  rancid01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  renderfp01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  rsyslog01.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  rsyslog02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  script-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  share02.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  shell02.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  smtpfa01.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  smtpfa02.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  smtpfp01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  smtpfp02.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ssllbfa01.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  ssllbfa02.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  ssllbfp01.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ssllbfp02.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  ssllb-test01.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  ssllb-test02.1.mon.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: true
+  stor2rrd.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  test-puppet5-podman01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  test-puppet5-podman02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: true
+    tr_active: false
+  verinicepro03.id.dvag.com:
+    stage: produktion
+    is_active: true
+    tr_active: true
+  verinicepro04.id.dvag.com:
+    stage: abnahme
+    is_active: true
+    tr_active: true
+  search01.34.search.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  search02.34.search.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  backend01.34.search.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  backend02.34.search.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true
+  hwaufbautest01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: false
+    tr_active: false
+  hwaufbautesto01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: false
+    tr_active: false
+  newlb01.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: false
+    tr_active: false
+  newlb02.1.mgmt.dvag.net:
+    stage: entwicklung
+    is_active: false
+    tr_active: false
+  selenium-tests.1.mgmt.dvag.net:
+    stage: produktion
+    is_active: false
+    tr_active: true

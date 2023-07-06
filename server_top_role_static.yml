@@ -1,0 +1,29 @@
+---
+
+- name: playbook server_top_role_static.yml
+  hosts: "{{ ansible_limit }}"
+  gather_facts: false
+  pre_tasks:
+  - name: assert correct git branch
+    vars:
+      current_git_branch: "{{ lookup('ansible.builtin.pipe', 'git rev-parse --abbrev-ref HEAD') | replace('/','_') }}"
+    when: foreman_environment != current_git_branch
+    tags:
+    - always
+    ansible.builtin.fail:
+      msg: "curent_git_branch={{current_git_branch}} is not sutable for server with foreman_environment={{foreman_environment}}"
+  - name: assert correct role
+    when: static_role != top_role
+    tags:
+    - always
+    ansible.builtin.fail:
+      msg: "static_role={{static_role}} must be equal to top_role={{top_role}}"
+  #- setup:
+  #  tags:
+  #  - always
+
+  tasks:
+  - name: import server top role
+    when: static_role == top_role
+    import_role:
+      role: "{{ static_role }}"

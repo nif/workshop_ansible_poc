@@ -1,0 +1,8 @@
+- name: shared/apache/base
+  tags:
+  - shared/apache/base
+  block:
+
+  - name: install apache webserver
+    debug:
+      msg: install apache webserver

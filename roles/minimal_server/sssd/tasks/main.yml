@@ -1,0 +1,16 @@
+- name: minimal_server/sssd
+  tags:
+  - minimal_server/sssd
+  block:
+
+  - name: get checkldap password
+    debug:
+      msg: get checkldap password
+
+  - name: create sssd.conf
+    debug:
+      msg: create sssd.conf
+
+  - name: setup sssd
+    debug:
+      msg: setup sssd

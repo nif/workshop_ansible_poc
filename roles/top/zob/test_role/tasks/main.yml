@@ -1,0 +1,28 @@
+- name: top/zob/test_role
+  tags:
+  - top/zob/test_role
+  block:
+
+  - name: create zob user
+    debug:
+      msg: create zob user
+
+  - name: setup zob applikation
+    debug:
+      msg: setup zob applikation
+
+  - import_role:
+      role: test/test_azure_keyvault_lookup
+
+  - import_role:
+      role: shared/apache/base
+
+  - import_role:
+      role: shared/apache/vserver
+    vars:
+      apache_vserver_fqdn: vserver1.dvag.com
+
+  - import_role:
+      role: shared/apache/vserver
+    vars:
+      apache_vserver_fqdn: vserver2.dvag.com

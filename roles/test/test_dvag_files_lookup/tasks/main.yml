@@ -1,0 +1,13 @@
+- name: test/test_dvag_files_lookup
+  tags:
+  - test/test_dvag_files_lookup
+  block:
+
+  - name: get dvag_files/test_file.txt
+    debug:
+      msg: "{{ lookup('dvag_files', 'test_file.txt') }}"
+
+  - name: get dvag_files_password
+    debug:
+      msg: "{{ lookup('dvag_files', 'dvag_files_password') }}"
+    no_log: true

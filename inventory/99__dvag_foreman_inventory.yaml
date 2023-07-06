@@ -1,0 +1,6 @@
+---
+
+plugin: dvag_foreman_inventory
+foreman_server: foreman01.1.mgmt.dvag.net
+foreman_validate_certs: true
+only_add_variables_for_already_defined_hosts: true

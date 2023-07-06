@@ -1,0 +1,8 @@
+dos_cloud:
+  children:
+    dos_cloud_int:
+
+dos_cloud_int:
+  vars:
+  hosts:
+

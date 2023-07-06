@@ -1,0 +1,9 @@
+zob:
+  children:
+    zob_dev:
+
+zob_dev:
+  vars:
+  hosts:
+    alma01.salxtest.dvag.net:
+      top_role: top/zob/test_role

@@ -1,0 +1,6 @@
+---
+
+# used in plugins/lookup/dvag_group_id
+
+foreman: 2000
+rundeck: 2001

@@ -1,0 +1,12 @@
+- name: standard_server/iptables role block
+  tags:
+  - standard_server/iptables
+  block:
+
+  - name: create ipsets
+    debug:
+      msg: create ipsets
+
+  - name: setup iptables
+    debug:
+      msg: setup iptables

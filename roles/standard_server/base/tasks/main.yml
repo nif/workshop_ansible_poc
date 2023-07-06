@@ -1,0 +1,9 @@
+- name: standard_server/base
+  tags:
+  - standard_server/base
+  block:
+  - import_role:
+      role: minimal_server/base
+
+  - import_role:
+      role: standard_server/iptables
