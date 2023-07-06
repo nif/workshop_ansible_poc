@@ -1,8 +1,0 @@
----
-
-- name: playbook loadbalancer_main.yml
-  hosts: "{{ ansible_limit }}"
-
-  roles:
-  - basis
-  - loadbalancer

@@ -1,5 +1,0 @@
----
-# tasks file for basis
-
-- name: loadbalancer steps 1
-  ansible.builtin.include_tasks: loadbalancer_steps1.yml
